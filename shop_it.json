@@ -1,0 +1,146 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "name": "white shirt",
+            "image": "https://www.repertoirefashion.co.uk/images/ami-mens-plain-white-shirt-regular-fit-poplin-formal-shirt-p29419-95213_image.jpg",
+            "price": 199,
+            "category": "shirts"
+        },
+        {
+            "id": 2,
+            "name": "black shirt",
+            "image": "https://latestshirt.com/wp-content/uploads/2020/02/What-A-Black-Shirt-For-Men-Means-To-You.jpg",
+            "price": 199,
+            "category": "shirts"
+        },
+        {
+            "id": 3,
+            "name": "green shirt",
+            "image": "https://i.pinimg.com/originals/0b/82/a5/0b82a58346cfd32d9d93315f32f537c0.jpg",
+            "price": 199,
+            "category": "shirts"
+        },
+        {
+            "id": 4,
+            "name": "yellow shirt",
+            "image": "https://cdna.lystit.com/photos/2013/02/22/reiss-ochre-homestead-garment-dyed-shirt-ochre-product-1-6624648-778005829.jpeg",
+            "price": 199,
+            "category": "shirts"
+        },
+        {
+            "id": 5,
+            "name": "blue shirt",
+            "image": "https://davidwej.com/wp-content/uploads/2019/06/Button-Down-Collar-Plain-Long-Sleeve-Shirt-%E2%80%93-Royal-Blue-CM0002RYB-5.jpg",
+            "price": 199,
+            "category": "shirts"
+        },
+        {
+            "id": 6,
+            "name": "white pant",
+            "image": "https://cdna.lystit.com/photos/fa89-2014/10/28/dockers-white-white-straight-fit-pants-product-1-24998863-1-406702458-normal.jpeg",
+            "price": 299,
+            "category": "pants"
+        },
+        {
+            "id": 7,
+            "name": "black pant",
+            "image": "https://th.bing.com/th/id/OIP.-xie8McEB4zGLR2bYFGssQHaKe?rs=1&pid=ImgDetMain",
+            "price": 299,
+            "category": "pants"
+        },
+        {
+            "id": 8,
+            "name": "green pant",
+            "image": "https://cdnc.lystit.com/photos/asos/ed7429ad/asos-Green-Wedding-Skinny-Suit-Pants-In-Pine-Green.jpeg",
+            "price": 299,
+            "category": "pants"
+        },
+        {
+            "id": 9,
+            "name": "yellow pant",
+            "image": "https://cdna.lystit.com/photos/2be0-2015/01/12/ami-alexandre-mattiussi-yellow-mustard-chino-pants-product-1-27030223-0-754761581-normal.jpeg",
+            "price": 299,
+            "category": "pants"
+        },
+        {
+            "id": 10,
+            "name": "blue pant",
+            "image": "https://i.pinimg.com/originals/49/ce/7a/49ce7a6c1c9d55b502862741971cf79e.jpg",
+            "price": 299,
+            "category": "pants"
+        },
+        
+        {
+            "id": 11,
+            "name": "redmi mobile",
+            "image": "https://th.bing.com/th/id/OIP.ppgxxxhF2iQqk2tWqKXqmgHaHa?rs=1&pid=ImgDetMain",
+            "price": 14999,
+            "category": "mobile"
+        },
+        {
+            "id": 12,
+            "name": "realme mobile",
+            "image": "https://mob4g.com/wp-content/uploads/2022/11/Realme-11-Pro-3.webp",
+            "price": 14999,
+            "category": "mobile"
+        },
+        {
+            "id": 13,
+            "name": "lava mobile",
+            "image": "https://www.devicespecifications.com/images/news/927d152f/thumbnail.jpg",
+            "price": 12999,
+            "category": "mobile"
+        },
+        {
+            "id": 14,
+            "name": "samsung mobile",
+            "image": "https://th.bing.com/th/id/OIP.U8POfW2hGdhiEiayZ8hsyAHaHa?rs=1&pid=ImgDetMain",
+            "price": 69999,
+            "category": "mobile"
+        },
+        {
+            "id": 15,
+            "name": "Apple mobile",
+            "image": "https://th.bing.com/th/id/OIP.HBl402yBRdfPpBRMpgm0tAAAAA?rs=1&pid=ImgDetMain",
+            "price": 79999,
+            "category": "mobile"
+        },
+        {
+            "id": 16,
+            "name": "IFB washing machine",
+            "image": "https://th.bing.com/th/id/OIP.NzbjIGFw8Igkz05csbU_fgHaHa?rs=1&pid=ImgDetMain",
+            "price": 19999,
+            "category": "washing machine"
+        },
+        {
+            "id": 17,
+            "name": "LG washing machine",
+            "image": "https://www.lg.com/in/images/washing-machines/md05834452/gallery/FH0H3NDNL02_large1.jpg",
+            "price": 19999,
+            "category": "washing machine"
+        },
+        {
+            "id": 18,
+            "name": "Samsung refrigerator",
+            "image": "https://images.homedepot-static.com/productImages/f6b762a1-8515-4651-a53c-689e0c56d7d4/svn/stainless-steel-samsung-french-door-refrigerators-rf25hmedbsr-64_1000.jpg",
+            "price": 28999,
+            "category": "refrigerator"
+        },
+        {
+            "id": 19,
+            "name": "whirlpool refrigerator",
+            "image": "https://th.bing.com/th/id/R.4f03714023f9054ce785f9db488b63af?rik=yZR%2fXslFSJkO6w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-d5z327-7RPU%2fUnUEUkmoHSI%2fAAAAAAAAAkE%2fpmnxwj4EdnA%2fs1600%2fstainless-steel-wrf736sdam-refrigerator.jpg&ehk=g%2fVwM2hzRZNpisNF2wCVsbBnLnA6%2b1MxIPz5ykYy5ho%3d&risl=&pid=ImgRaw&r=0",
+            "price": 24999,
+            "category": "refrigerator"
+        },
+        {
+            "id": 20,
+            "name": "IFB microwave oven",
+            "image": "https://th.bing.com/th/id/R.e298db26565ffcd4120bc1690b34a314?rik=YcyLfJk4gxOVPA&riu=http%3a%2f%2fwww.maacarts.com%2fwp-content%2fuploads%2f2017%2f02%2f71dTVXxHVvL._SL1500_.jpg&ehk=BrohxryS0LvP8kdr3Urb6R%2buPXEq36jCPWirlb%2bh5Sk%3d&risl=&pid=ImgRaw&r=0",
+            "price": 12999,
+            "category": "microwave"
+        }
+        
+    ]
+}

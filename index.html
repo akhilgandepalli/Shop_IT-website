@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop_IT website</title>
+    <link rel="stylesheet" href="shop_it.css" />
+  </head>
+  <body>
+    <!-- create a header -->
+    <header>
+      <h1><a href="#"><ion-icon name="storefront-outline"></ion-icon>Shop_IT</a></h1>
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="search-container">
+        <form class="search-form">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Search items here..."
+          />
+          <button type="submit" class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </form>
+      </div>
+      <div class="icons">
+        <ion-icon name="search-outline" class="search-icon" onclick="searchBarDisplay()"></ion-icon>
+        <ion-icon name="cart-outline" class="cart-icon" onclick="cartDisplay()"></ion-icon>
+        <ion-icon name="person-outline" class="login-icon" onclick="loginDisplay()"></ion-icon>
+        <span class="cart-icon-num">0</span>
+      </div>
+      <div class="login">
+        <form onsubmit="closeLogin()">
+          <span>Login</span>
+          <input type="text" class="login-email" placeholder="Enter your email id">
+          <input type="password" class="login-pass" placeholder="Password">
+          <div class="login-btns">
+            <button type="submit" class="login-submit">Submit</button>
+            <button class="login-cancel" onclick="closeLogin()">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <!-- main content -->
+    <main>
+      <!-- create a slideshow -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="https://static.vecteezy.com/system/resources/previews/001/045/002/original/happy-woman-shopping-online-vector.jpg">
+        </div>
+        <div class="mySlides fade">
+          <img src="https://media.istockphoto.com/vectors/electronics-and-appliances-promotional-sale-vector-id1047595106?k=6&m=1047595106&s=170667a&w=0&h=5sgh3lbdlMFps9XEpvFPGAK_Yq0wWSXOBY4qfHRWTco=">
+        </div>
+        <div class="mySlides fade">
+          <img src="https://www.majordroid.com/wp-content/uploads/2017/11/smartphone-sale-1024x495.png">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+      <!-- create a cart container to show items in cart -->
+      <div class="cart-container">
+        <h2>Shopping cart</h2>
+        <div class="cart-items">
+          
+        </div>
+        <div class="cart-total">Total cost: Rs. 0</div>
+        <div class="cart-btns">
+          <button class="cart-close-btn" onclick="closeCart()">Close</button>
+          <button class="cart-checkout-btn">Checkout</button>
+        </div>
+      </div>
+      <!-- heading for show items -->
+      <div class="items-head">
+        <h1>Best selling products</h1>
+        <p>get wide range of products</p>
+      </div>
+      <!-- show items -->
+      <div class="items-container"></div>
+    </main>
+
+    <script src="shop_it.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
