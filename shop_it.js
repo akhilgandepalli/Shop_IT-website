@@ -1,3 +1,4 @@
+//add variables for selecting html elements in dom
 const id = (name) => document.querySelector(name);
 
 let searchIcon = id('.search-icon');
@@ -11,6 +12,7 @@ let cartIconNum = id('.cart-icon-num');
 let cartTotalContainer = id('.cart-total');
 let cartCheckOutBtn = id('.cart-checkout-btn');
 let loginContainer = id('.login');
+let loginForm = id('.login-form');
 
 let cartTotal = 0;
 let itemsList=[];
@@ -181,6 +183,10 @@ const closeLogin = () =>{
   loginIcon.name='person-outline';
   loginIcon.style.border='none';
 }
+loginForm.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  closeLogin();
+})
 
 
 // slideshow
